@@ -1,29 +1,16 @@
-# README #
+# Keypad #
+This is an attempt to design a serviceable replacement the long-discontinued G13 "gameboard".
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## PCB ##
+The PCB design depends on symbols from a few libraries:
 
-### What is this repository for? ###
+ - https://github.com/stormbard/Keyboard.pretty for the hotswap switch footprints
+ - https://github.com/g200kg/kicad-lib-arduino for the Sparkfun Pro Micro footprint + symbol
+ - https://grabcad.com/library/kailh-hotswap-mx-1 for the hot-swap socket step file (requires registration)
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### Board Layout ###
+The G13 had 22 "G" keys, 2 thumb keys, and an analog stick with a click (in addition to some other buttons not important to this effort).
 
-### How do I get set up? ###
+This initial project contains the main board with 22 keys and 2 pushbuttons intended to be used to switch layers in QMK. It also includes a header with 2 rows and 6 columns for an expansion board (aka, the thumb buttons).
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+The plan is to use a Maple Elite-C instead of a Pro Micro, but the pinouts are identical so the Pro Micro footprint works for now. If the QMK proton-C ever gets restocked, it would be nice to switch to that.
