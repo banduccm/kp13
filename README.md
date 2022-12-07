@@ -5,7 +5,7 @@ This is an attempt to design a serviceable replacement the long-discontinued G13
 The PCB design depends on symbols from a few libraries:
 
  - https://github.com/stormbard/Keyboard.pretty for the hotswap switch footprints
- - https://github.com/g200kg/kicad-lib-arduino for the Sparkfun Pro Micro footprint + symbol
+ - https://github.com/drewgates/kb2040-kicad for the Adafruit KB2040 footprint, symbol, and step file
  - https://grabcad.com/library/kailh-hotswap-mx-1 for the hot-swap socket step file (requires registration)
 
 ### Board Layout ###
@@ -13,7 +13,7 @@ The G13 had 22 "G" keys, 2 thumb keys, and an analog stick with a click (in addi
 
 This initial project contains the main board with 22 keys and 2 pushbuttons intended to be used to switch layers in QMK. It also includes a header with 2 rows and 6 columns for an expansion board (aka, the thumb buttons).
 
-The plan is to use a Maple Elite-C instead of a Pro Micro, but the pinouts are identical so the Pro Micro footprint works for now. If the QMK proton-C ever gets restocked, it would be nice to switch to that.
+The KB2040 was selected due to easy availability, compatibility with the Pro Micro pinout, and a USB-C port. Other Pro Micro-compatible boards may work, but take care to skip the D+/D- pins from the KB2040.
 
 # Plate #
 The plate for this project was designed using swillkb's [Plate & Case Builder](http://builder.swillkb.com/) tool.
