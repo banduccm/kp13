@@ -43,3 +43,15 @@ Lacking a good way to export the plate data, these are the settings:
  - Key Unit Size: Off
  - Line Color: Off
  - Line Weight: Off
+
+ # Parts #
+ For the first build, the following parts were used:
+ ## Plate ##
+ The place was ordered from [SendCutSend](https://sendcutsend.com/) in 1.6mm thick 5051 Aluminum.
+ ## Electronics ##
+ Initial parts were ordered from Adafruit:
+  - 30x [1N4148 diodes](https://www.adafruit.com/product/1641)
+  - 20x [6mm Tactile Button switch](https://www.adafruit.com/product/367)
+  - 40x [Kailh Switch Sockets for MX-compatible Mechanical Keys](https://www.adafruit.com/product/4958)
+  - 30x [Kailh Mechanical Key Switches - Linear Black](https://www.adafruit.com/product/4953)
+  - 1x [Adafruit KB2040](https://www.adafruit.com/product/5302)
