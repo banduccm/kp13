@@ -55,3 +55,14 @@ Lacking a good way to export the plate data, these are the settings:
   - 40x [Kailh Switch Sockets for MX-compatible Mechanical Keys](https://www.adafruit.com/product/4958)
   - 30x [Kailh Mechanical Key Switches - Linear Black](https://www.adafruit.com/product/4953)
   - 1x [Adafruit KB2040](https://www.adafruit.com/product/5302)
+  - 1x [GMK Screw-in Stabilizers](https://1upkeyboards.com/shop/parts-and-tools/parts/gmk-screw-in-stabilizers/) _Note: These ended up being incompatible with the plate, see v0.1.0 notes_
+## PCB ##
+The PCB was ordered from PCBWay using their Kicad plugin.
+
+# Version Notes #
+## v0.1.0 ##
+Generally good news! The parts all fit as expected and the circuit works as designed. No reworks required to have a functioning 22-key setup.
+
+ - The plate is not compatible with the PCB-mount stabilizers.
+ - The angle on the plate and the angle on the PCB are not the same. This is annoying, but not a functional problem.
+ - n-key rollover works (as expected), but note that QMK defaults to 6KRO. The default keymap uses switch C0 on Layer 0 to toggle it.
