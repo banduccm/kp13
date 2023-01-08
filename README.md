@@ -67,3 +67,8 @@ Generally good news! The parts all fit as expected and the circuit works as desi
  - The plate is not compatible with the PCB-mount stabilizers.
  - The angle on the plate and the angle on the PCB are not the same. This is annoying, but not a functional problem.
  - n-key rollover works (as expected), but note that QMK defaults to 6KRO. The default keymap uses switch C0 on Layer 0 to toggle it.
+
+ # Thumb Pod #
+
+ ## D-Pad ##
+  - [ALPS RKJXM1015004](https://tech.alpsalpine.com/e/products/detail/RKJXM1015004/)
