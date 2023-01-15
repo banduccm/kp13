@@ -1483,6 +1483,9 @@
   (gr_line (start 146 80) (end 146 24) (layer "Edge.Cuts") (width 0.2) (tstamp 48617ff9-92aa-45ca-b6eb-2bc4714140d1))
   (gr_line (start 146 24) (end 86 24) (layer "Edge.Cuts") (width 0.2) (tstamp 6b57056b-41f2-4412-9a88-18568d9cb524))
   (gr_line (start 86 80) (end 146 80) (layer "Edge.Cuts") (width 0.2) (tstamp c2198d50-e019-46b8-bd6f-2d912b9b9407))
+  (gr_text "kp13 Thumb Pod v0.1" (at 94.1 25.6) (layer "F.Cu") (tstamp 586dcdf9-8d49-4b4f-b665-9eba354f375e)
+    (effects (font (size 0.75 0.75) (thickness 0.1875)))
+  )
 
   (segment (start 135.285 29.825) (end 135.285 31.486701) (width 0.25) (layer "F.Cu") (net 1) (tstamp 881d9813-7b35-4c6d-8508-ea8c7518b4de))
   (segment (start 135.285 31.486701) (end 134 32.771701) (width 0.25) (layer "F.Cu") (net 1) (tstamp d1a70908-5464-4b6c-8f07-12bb3a127298))
