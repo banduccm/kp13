@@ -68,7 +68,16 @@ Generally good news! The parts all fit as expected and the circuit works as desi
  - The angle on the plate and the angle on the PCB are not the same. This is annoying, but not a functional problem.
  - n-key rollover works (as expected), but note that QMK defaults to 6KRO. The default keymap uses switch C0 on Layer 0 to toggle it.
 
- # Thumb Pod #
+ ## v0.2.0 Wishlist ##
+ During the mechanical design phase, some items were added as a wishlist for a potential second spin of the "big" board:
+  - Smaller, optimized thumb-pod connector. Considering using a 1.27mm pitch 10-pin cable (Cortex-M SWD connector) to reduce mechanical size.
+  - Figure out how to use the kb2040's castellated pins to reduce z-height
+  - Fix the slight mismatch between plate and PCB outline
 
- ## D-Pad ##
+ # Thumb Pod #
+ The thumb pod(s) incorporate a 4-way (with diagonals!) thumbstick and 0-4 buttons. There are 3 different versions (regular, mini, micro) panelized into a single PCB for easy experimentation. The thumbstick uses the same matrix positions on each version, so it is possible to populate multiple pods and swap between them as desired.
+
+ ## Thumbstick ##
   - [ALPS RKJXM1015004](https://tech.alpsalpine.com/e/products/detail/RKJXM1015004/)
+
+  This thumbstick has 4 switches and can handle diagonal movements as well. It has a "stick click", but this is not broken out as a dedicated pin, so it's unclear if it is compatible with QMK. In v0.1 of the thumb pods, the "push" pins are not connected to the key matrix.
