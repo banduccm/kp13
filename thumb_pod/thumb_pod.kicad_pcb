@@ -575,6 +575,11 @@
       (net 13 "/GND") (pinfunction "Ground") (pintype "passive") (tstamp 645a9dc3-07b0-496b-bcb9-2817ab3bbb4f))
     (pad "7" thru_hole circle (at -1.1 -4.83) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
       (net 6 "Net-(D5-Pad2)") (pinfunction "C") (pintype "passive") (tstamp 3ee5d762-64f7-4b56-bec7-5de4e7bbd333))
+    (model "${KIPRJMOD}/models/RKJXM1015004.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "thumb_pod:mouse-bite-2mm-slot" (layer "F.Cu")
@@ -643,6 +648,11 @@
       (net 36 "Net-(J3-Pad5)") (pinfunction "B") (pintype "passive") (tstamp 13c12025-b74e-43c7-98b4-90acbd04e93a))
     (pad "3" thru_hole circle (at 0 0 90) (size 2.2 2.2) (drill 1.1) (layers *.Cu *.Mask)
       (net 40 "Net-(D18-Pad2)") (pinfunction "C") (pintype "passive") (tstamp c21ba7fc-e449-4e2d-a077-b9199cd10234))
+    (model "${KIPRJMOD}/models/SWITCH_MOUSE.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "thumb_pod:mouse-bite-2mm-slot" (layer "F.Cu")
@@ -1355,7 +1365,7 @@
       (net 33 "/GND_m") (pinfunction "Ground") (pintype "passive") (tstamp e84a2717-b0aa-4543-8219-bb2b63d7cbdf))
     (pad "7" thru_hole circle (at -1.1 -4.83) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask)
       (net 24 "Net-(D15-Pad2)") (pinfunction "C") (pintype "passive") (tstamp 68b1927a-bf28-40ef-a22e-fa8ff9612c69))
-    (model "/home/mbanducci/Downloads/product_3dcad_rkjxm1015004_en_ffeeb78c6d/RKJXM1015004/RKJXM1015004.STEP"
+    (model "${KIPRJMOD}/models/RKJXM1015004.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1428,6 +1438,11 @@
       (net 36 "Net-(J3-Pad5)") (pinfunction "B") (pintype "passive") (tstamp ba9be870-c73e-4a18-9d14-7a9c4ed25274))
     (pad "3" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.1) (layers *.Cu *.Mask)
       (net 39 "Net-(D16-Pad2)") (pinfunction "C") (pintype "passive") (tstamp 25a5819a-5ea0-459f-844f-3982ba3fb8d5))
+    (model "${KIPRJMOD}/models/SWITCH_MOUSE.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "MountingHole:MountingHole_3.2mm_M3" (layer "F.Cu")
