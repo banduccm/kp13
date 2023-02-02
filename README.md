@@ -74,10 +74,21 @@ Generally good news! The parts all fit as expected and the circuit works as desi
   - Figure out how to use the kb2040's castellated pins to reduce z-height
   - Fix the slight mismatch between plate and PCB outline
 
- # Thumb Pod #
- The thumb pod(s) incorporate a 4-way (with diagonals!) thumbstick and 0-4 buttons. There are 3 different versions (regular, mini, micro) panelized into a single PCB for easy experimentation. The thumbstick uses the same matrix positions on each version, so it is possible to populate multiple pods and swap between them as desired.
+ # Thumb Pods #
+ The thumb pod(s) incorporate a 4-way (with diagonals!) thumbstick and 0-4 buttons. There are 2 different versions (regular, mini) panelized into a single PCB for easy experimentation. The thumbstick uses the same matrix positions on each version, so it is possible to populate multiple pods and swap between them as desired.
+
+ The pods feature a notched edge for mounting square against the keypad PCB (or a case holding it). This ensures the A/B/C/D positions of the thumbstick are square with the keypad.
 
  ## Thumbstick ##
   - [ALPS RKJXM1015004](https://tech.alpsalpine.com/e/products/detail/RKJXM1015004/)
 
-  This thumbstick has 4 switches and can handle diagonal movements as well. It has a "stick click", but this is not broken out as a dedicated pin, so it's unclear if it is compatible with QMK. In v0.1 of the thumb pods, the "push" pins are not connected to the key matrix.
+  This thumbstick has 4 switches and can handle diagonal movements as well. It has a "stick click", but this is not broken out as a dedicated pin, so it's unclear if it is compatible with QMK. In v0.1 of the thumb pods, the "push" pins are not connected to the key matrix. The same thumbstick is used for both thumb pod designs.
+ 
+ ## Thumb Pod ##
+ The regular thumb pod uses the same MX hot-swap sockets and 1U keys to provide 4 switches surrounding the thumbstick.
+
+ ## Thumb Pod Mini ##
+ The mini thumb pod closely approximates the original G13 thumb section: two mouse-like microswitches and the thumbstick. This version will require some sort of housing, as it's not really feasible to hit microswitch actuators.
+
+ ### Electronics ###
+  - [Kailh GM Microswitch](https://www.kailhswitch.com/micro-switches/mouse-micro-switches/high-click-life-gaming-micro-mouse-switch.html)
