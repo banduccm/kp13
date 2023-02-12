@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "thumb_pod")(type "KiCad")(uri "${KIPRJMOD}/../thumb_pod/thumb_pod.kicad_sym")(options "")(descr ""))
+)

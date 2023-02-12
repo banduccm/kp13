@@ -49,4 +49,5 @@ Thumbs.db
 *.wmv
 
 # Kicad backups
-keypad-backups/
+*-backups/
+fp-info-cache

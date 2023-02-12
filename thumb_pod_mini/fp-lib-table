@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "thumb_pod")(type "KiCad")(uri "${KIPRJMOD}/../thumb_pod/thumb_pod.pretty")(options "")(descr ""))
+  (lib (name "keypad")(type "KiCad")(uri "${KIPRJMOD}/../pcb/keypad.pretty")(options "")(descr ""))
+)
