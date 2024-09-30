@@ -55,7 +55,8 @@ Lacking a good way to export the plate data, these are the settings:
   - 40x [Kailh Switch Sockets for MX-compatible Mechanical Keys](https://www.adafruit.com/product/4958)
   - 30x [Kailh Mechanical Key Switches - Linear Black](https://www.adafruit.com/product/4953)
   - 1x [Adafruit KB2040](https://www.adafruit.com/product/5302)
-  - 1x [GMK Screw-in Stabilizers](https://1upkeyboards.com/shop/parts-and-tools/parts/gmk-screw-in-stabilizers/) _Note: These ended up being incompatible with the plate, see v0.1.0 notes_
+  - ~~1x [GMK Screw-in Stabilizers](https://1upkeyboards.com/shop/parts-and-tools/parts/gmk-screw-in-stabilizers/)~~ _Note: These ended up being incompatible with the plate, see v0.1.0 notes_
+  - 1x [Durock Plate Mount Stabilizers](https://1upkeyboards.com/shop/parts-and-tools/parts/durock-plate-mount-stabilizers-60-tkl-piano/)
 ## PCB ##
 The PCB was ordered from PCBWay using their Kicad plugin.
 
