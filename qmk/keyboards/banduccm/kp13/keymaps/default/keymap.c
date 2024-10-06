@@ -2,7 +2,7 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(   // Debugging layout
-                                MAGIC_TOGGLE_NKRO, DF(1),
+                                QK_MAGIC_TOGGLE_NKRO, DF(1),
         KC_0, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6,
         KC_7, KC_8, KC_9, KC_A, KC_B, KC_C, KC_D,
               KC_E, KC_F, KC_G, KC_H, KC_I,
@@ -15,7 +15,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_7, KC_8, KC_A, KC_S, KC_D, KC_9, KC_0,
            KC_LCTL, KC_N, KC_H, KC_L, KC_GRAVE,
                     KC_T, KC_J, KC_SPACE,
-                    KC_U, KC_L, KC_D, KC_R, KC_Z, KC_X, KC_Y, KC_V
+                    KC_F1, KC_F2, KC_F4, KC_F3, KC_L, KC_F, KC_F5, KC_P
     ),
     [2] = LAYOUT(   // g13 default layout
                                 DF(1), DF(2),

@@ -20,8 +20,8 @@
     "url": "https://bitbucket.org/banduccm/keypad/",
     "usb": {
         "device_version": "1.0.0",
-        "vid": "0xFEED",
-        "pid": "0xF031"
+        "vid": "0x6B70",
+        "pid": "0x3133"
     },
     "layouts": {
         "LAYOUT": {
